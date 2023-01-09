@@ -27,13 +27,16 @@ public class AggregateAndFilter {
                 .toArray();
     }
     public static void main(String[] args) {
-//	    int [] arr1 = {-9, 3, 2, -8, 12, -16};
-//	    int [] arr2 = {0, -3, -8, -35, 40, 20, 7};
-//
-//	    Arrays.stream(findEvenNums(arr1, arr2))
-//                        .forEach(System.out::println);
-//        System.out.println();
-//	    Arrays.stream(findEvenNum2(arr1, arr2))
-//                        .forEach(System.out::println);
+	    int [] arr1 = {-9, 3, 2, -8, 12, -16};
+	    int [] arr2 = {0, -3, -8, -35, 40, 20, 7};
+
+	    Arrays.stream(findEvenNums(arr1, arr2))
+                        .forEach(System.out::println);
+        System.out.println();
+        System.out.println("1");
+        System.out.println("2");
+        System.out.println("3");
+	    Arrays.stream(findEvenNum2(arr1, arr2))
+                        .forEach(System.out::println);
     }
 }
